@@ -24,13 +24,6 @@
 </template>
 
 <script>
-import promo from "~/components/promo.vue";
-
-export default {
-  components: {
-    promo
-  }
-};
 </script>
 
 <style>
@@ -60,7 +53,7 @@ export default {
 .promo-right {
   margin: 0 20vw 0 9vw;
 }
-.promo-right h2 {
-  background-image: url(~~/assets/gfb.png);
-}
+/* .promo-right h2 {
+  background-image: url(~~/static/gfb.png);
+} */
 </style>

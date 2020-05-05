@@ -1,9 +1,9 @@
 <template>
-  <div class="headerTopBar">
+  <div class="top-header">
     <div class="left">
       <div class="left-left">
         <div class="image">
-          <img src="assets/curcle.png" alt />
+          <img src="~/assets/curcle.png" alt />
           <h2>C</h2>
         </div>
         <h1>
@@ -14,7 +14,7 @@
       </div>
       <div class="left-right">
         <div>
-          <img src="assets/locate.png" alt />
+          <img src="~/assets/locate.png" alt />
         </div>
         <div>
           <h2>Адрес компании:</h2>
@@ -27,7 +27,7 @@
     <div class="right">
       <div class="right-left">
         <div class="phone-icon">
-          <img src="assets/call.png" alt />
+          <img src="~/assets/call.png" alt />
         </div>
         <div>
           <span class="phone-number">8 (800) 000 00 00</span>
@@ -45,6 +45,25 @@
 <script>
 </script>
 <style scoped>
+.top-header {
+  margin: 5vh 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #fff;
+}
+.top-header img {
+  margin-right: 20px;
+}
+.top-header h2 {
+  font-size: 14px;
+  font-weight: normal;
+}
+.headerTopBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .image {
   position: relative;
 }
@@ -104,5 +123,11 @@
 }
 .phone-icon {
   margin-top: 5px;
+}
+.burger {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
 }
 </style>
