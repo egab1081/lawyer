@@ -43,14 +43,22 @@ html,
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
   font-family: "Tinos", serif;
 }
-
 h1,
 h2,
 p {
   font-weight: normal;
   margin: 0;
   padding: 0;
+}
+.blue {
+  color: #45a4e1;
+}
+.grey {
+  color: #b6b6b6;
 }
 </style>

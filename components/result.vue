@@ -1,22 +1,24 @@
 <template>
   <section class="result">
-    <h1>Добиваемся результатов не только на бумаге</h1>
+    <img src="../assets/magazine.png" alt />
+    <h1>Добиваемся результатов</h1>
+    <h1 class="blue">не только на бумаге</h1>
     <div>
       <ol>
-        <li>
-          Все начинается с претензиозной работы наш принцип - суд только
+        <li class="active">
+          <b class="f19">Все начинается с претензиозной работы</b> наш принцип - суд только
           после переговоров, у нас есть аргументы для должников
         </li>
-        <li>
-          Все начинается с претензиозной работы наш принцип - суд только
+        <li class="normal">
+          <b class="f19">Все начинается с претензиозной работы</b> наш принцип - суд только
           после переговоров, у нас есть аргументы для должников
         </li>
-        <li>
-          Все начинается с претензиозной работы наш принцип - суд только
+        <li class="normal">
+          <b class="f19">Все начинается с претензиозной работы</b> наш принцип - суд только
           после переговоров, у нас есть аргументы для должников
         </li>
-        <li>
-          Все начинается с претензиозной работы наш принцип - суд только
+        <li class="normal">
+          <b class="f19">Все начинается с претензиозной работы</b> наш принцип - суд только
           после переговоров, у нас есть аргументы для должников
         </li>
       </ol>
@@ -36,4 +38,50 @@ export default {
 </script>
 
 <style scoped>
+.result {
+  /* background-image: url(../assets/magazine.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right; */
+  background-color: #fbfbfb;
+  position: relative;
+  z-index: 1;
+}
+img {
+  position: absolute;
+  z-index: -1;
+  bottom: -360px;
+  right: 0px;
+}
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+ol {
+  margin: 0;
+}
+h1 {
+  font-size: 69px;
+  margin-left: 170px;
+}
+li {
+  font-size: 19px;
+  width: 450px;
+  margin-top: 30px;
+  line-height: 30px;
+}
+.f19 {
+  font-size: 20px;
+}
+.normal {
+  list-style: none;
+  background: url(../assets/list-circle.png) no-repeat 0 2px;
+  padding-left: 70px;
+}
+.active {
+  list-style: none;
+  background: url(../assets/list-circle-active.png) no-repeat 0 2px;
+  padding-left: 70px;
+}
 </style>

@@ -1,59 +1,99 @@
 <template>
   <div class="promo">
     <div class="promo-left">
-      <h1>Экспертные услуги</h1>
-      <h1>по банкротству</h1>
-      <h1>физических лиц</h1>
-      <h1>и бизнеса</h1>
+      <div class="expert">
+        <h1>Экспертные услуги</h1>
+        <h1>по банкротству</h1>
+        <h1 class="blue">физических лиц</h1>
+        <h1 class="blue">и бизнеса</h1>
+      </div>
       <h2>
-        Бесплатный правовой анализ вашей проблемы от арбитражного
+        Бесплатный правовой анализ вашей
+        <br />проблемы от арбитражного
         управляющего
       </h2>
-      <a href>ПОЛУЧИТЬ АНАЛИЗ</a>
+      <div class="image">
+        <div class="analise">
+          <a href>ПОЛУЧИТЬ АНАЛИЗ</a>
+        </div>
+        <img class="paper" src="~assets/L.png" alt />
+        <img class="print" src="~assets/print.png" alt />
+      </div>
       <p>
-        Ответьте на 5 вопросов и получите правовой анализ проблемы от
-        арбитражного упраавляющего
+        Ответьте на 5 вопросов и получите
+        <br />правовой анализ проблемы от
+        <br />арбитражного упраавляющего
       </p>
     </div>
-    <div class="promo-right">
-      <h1>Андрей Прилипко</h1>
-      <p>Управляющий партнер "Союза Арбитражных Управляющих"</p>
-      <h2>Мы пишем сценарий для самых сложных дел</h2>
-    </div>
+    <promoRight></promoRight>
   </div>
 </template>
 
 <script>
+import promoRight from "~/components/promoRight.vue";
+export default {
+  components: {
+    promoRight
+  }
+};
 </script>
 
-<style>
+<style scoped>
 .promo {
   display: flex;
   flex-direction: row;
-  margin-top: 9vh;
+  justify-content: space-around;
   color: #fff;
+}
+.promo img {
+  position: relative;
+  z-index: -1;
 }
 .promo-left {
-  margin: 0 9vw 0 20vw;
+  max-width: 570px;
+  max-height: 600px;
 }
 .promo-left h1 {
-  font-size: 45px;
+  font-size: 68px;
+  white-space: nowrap;
 }
 .promo-left h2 {
-  font-size: 16px;
+  font-size: 20px;
+  margin-bottom: 65px;
 }
-.promo-left a {
-  font-size: 14px;
+
+.analise {
+  display: flex;
+  justify-content: center;
+  max-width: 290px;
+  max-height: 100px;
+  border: 1px solid #45a4e1;
+  background-color: #45a4e1;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.analise a {
+  font-size: 17px;
   color: #fff;
   text-decoration: none;
+  margin: 40px 20px 50px 20px;
+}
+.paper {
+  position: relative;
+  top: -170px;
+  left: 280px;
+}
+.print {
+  position: relative;
+  top: -210px;
+  left: 230px;
 }
 .promo-left p {
-  font-size: 12px;
+  font-size: 17px;
+  font-style: bold italic;
 }
-.promo-right {
-  margin: 0 20vw 0 9vw;
+.expert {
+  margin-bottom: 40px;
+  font-size: 68px;
 }
-/* .promo-right h2 {
-  background-image: url(~~/static/gfb.png);
-} */
 </style>

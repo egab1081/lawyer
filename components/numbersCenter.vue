@@ -1,6 +1,6 @@
 <template>
-  <article class="numbers-third">
-    <h2 class="blue">17 лет</h2>
+  <article class="numbers-center">
+    <h2 class="blue">10-ть человек</h2>
     <p>
       <b class="f18">проффесионально специлизируемся на банкротстве</b>
       <br />
@@ -13,29 +13,27 @@
 </script>
 
 <style scoped>
-.numbers-third {
+.numbers-center {
   min-width: 440px;
   min-height: 640px;
   width: 440px;
   height: 640px;
-  background-image: url(../assets/1.png);
+  background-image: url(../assets/2.png);
   background-repeat: no-repeat;
-  background-position: -95px -10px;
+  background-position: -95px -130px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   text-align: center;
-  line-height: 25px;
 }
 h2 {
-  font-size: 70px;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  font-size: 52px;
+  max-width: 180px;
+  margin-top: 80px;
 }
 p {
   line-height: 25px;
-  max-width: 200px;
   font-size: 16px;
+  max-width: 200px;
 }
 </style>

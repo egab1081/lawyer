@@ -19,10 +19,10 @@ export default {
 <style>
 header {
   width: 100vw;
-  min-height: 100vh;
+  max-height: 100vh;
   background-color: #131313;
-  /* background-image: url(~/static/bcopyg.png);
-  background-size: contain;
-  background-repeat: no-repeat; */
+  background-image: url(../assets/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 </style>
