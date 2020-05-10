@@ -39,10 +39,6 @@ export default {
 
 <style scoped>
 .result {
-  /* background-image: url(../assets/magazine.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: top right; */
   background-color: #fbfbfb;
   position: relative;
   z-index: 1;
@@ -52,6 +48,7 @@ img {
   z-index: -1;
   bottom: -360px;
   right: 0px;
+  visibility: hidden;
 }
 div {
   display: flex;

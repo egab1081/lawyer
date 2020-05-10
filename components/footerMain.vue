@@ -18,4 +18,12 @@ export default {
 </script>
 
 <style scoped>
+footer {
+  background-color: #252529;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 520px;
+}
 </style>
