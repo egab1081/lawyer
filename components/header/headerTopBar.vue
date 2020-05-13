@@ -9,8 +9,7 @@
           </div>
           <h1>
             СОЮЗ
-            <br />АРБИТРАЖНЫХ
-            <br />УПРАВЛЯЮЩИХ
+            <br />АРБИТРАЖНЫХ <br />УПРАВЛЯЮЩИХ
           </h1>
         </div>
         <div class="left-right">
@@ -44,9 +43,8 @@
     </div>
   </div>
 </template>
-<script>
-</script>
-<style scoped>
+<script></script>
+<style lang="scss" s scoped>
 .top-header {
   display: flex;
   justify-content: center;

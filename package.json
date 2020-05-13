@@ -11,7 +11,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "loader": "^2.1.1",
+    "nuxt": "^2.0.0",
+    "sass": "^1.26.5"
   },
   "devDependencies": {}
 }

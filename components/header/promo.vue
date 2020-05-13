@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import promoRight from "~/components/promoRight.vue";
+import promoRight from "~/components/header/promoRight.vue";
 export default {
   components: {
     promoRight
@@ -38,7 +38,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .promo {
   display: flex;
   flex-direction: row;

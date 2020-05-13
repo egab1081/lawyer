@@ -16,7 +16,7 @@
 <script>
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .promo-right_top {
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@
   min-height: 340px;
   width: 230px;
   height: 340px;
-  background-image: url(../assets/1pen.png);
+  background-image: url(../../assets/1pen.png);
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;

@@ -1,10 +1,12 @@
 <template>
-  <section class="numbers">
-    <h1>Цифры говорят о нас</h1>
-    <div>
-      <numbersThird></numbersThird>
-      <numbersCenter></numbersCenter>
-      <numbersThird></numbersThird>
+  <section class="numbers-outer">
+    <div class="numbers-inner">
+      <h1>Цифры говорят о нас</h1>
+      <div>
+        <numbersThird></numbersThird>
+        <numbersCenter></numbersCenter>
+        <numbersThird></numbersThird>
+      </div>
     </div>
   </section>
 </template>
@@ -24,6 +26,9 @@ export default {
 <style scoped>
 .numbers {
   margin-bottom: 80px;
+}
+.numbers-inner {
+  width: 1139px;
 }
 h1 {
   font-size: 69px;

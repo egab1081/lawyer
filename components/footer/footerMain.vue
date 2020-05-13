@@ -1,8 +1,12 @@
 <template>
   <footer>
-    <footerLeft></footerLeft>
-    <footerThird></footerThird>
-    <footerThird></footerThird>
+    <div class="footer-outer">
+      <div class="footer-inner">
+        <footerLeft></footerLeft>
+        <footerThird></footerThird>
+        <footerThird></footerThird>
+      </div>
+    </div>
   </footer>
 </template>
 
@@ -25,5 +29,8 @@ footer {
   flex-direction: row;
   justify-content: space-evenly;
   height: 520px;
+}
+.footer-inner {
+  width: 937px;
 }
 </style>
